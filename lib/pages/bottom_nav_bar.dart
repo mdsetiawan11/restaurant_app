@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_app/pages/info_page.dart';
 import 'package:restaurant_app/pages/main_page.dart';
 
 import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
@@ -60,5 +61,5 @@ class _BottomNavBarState extends State<BottomNavBar> {
 List<Widget> _pages = <Widget>[
   // const AdminDashboard(),
   const MainPage(),
-  const Text('Info'),
+  const InfoPage()
 ];
