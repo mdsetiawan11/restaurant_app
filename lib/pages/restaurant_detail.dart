@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:readmore/readmore.dart';
 
 class RestaurantDetail extends StatefulWidget {
@@ -105,7 +104,7 @@ class _RestaurantDetailState extends State<RestaurantDetail> {
                         color: Colors.deepPurple,
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     const Text(
@@ -127,7 +126,7 @@ class _RestaurantDetailState extends State<RestaurantDetail> {
                             ));
                           }),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     const Text(

@@ -13,11 +13,11 @@ class _InfoPageState extends State<InfoPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Center(
             child: Column(
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Lottie.asset(
@@ -26,7 +26,7 @@ class _InfoPageState extends State<InfoPage> {
                   height: 200,
                   fit: BoxFit.fill,
                 ),
-                Text(
+                const Text(
                   'Aplikasi dibuat oleh Muhammad Dadang Setiawan untuk memenuhi tugas proyek 1 pada kelas Belajar Fundamental Aplikasi Flutter - Dicoding.com',
                   textAlign: TextAlign.center,
                 )

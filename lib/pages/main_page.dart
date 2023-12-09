@@ -15,7 +15,7 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   List _items = [];
   List searchData = [];
-  TextEditingController textEditingController = new TextEditingController();
+  TextEditingController textEditingController = TextEditingController();
 
   Future<void> readJson() async {
     final String response =
@@ -23,7 +23,6 @@ class _MainPageState extends State<MainPage> {
     final data = await json.decode(response);
     setState(() {
       _items = data["restaurants"];
-      print("..number of items ${_items.length}");
     });
   }
 

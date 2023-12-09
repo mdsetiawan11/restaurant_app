@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:restaurant_app/pages/bottom_nav_bar.dart';
 import 'package:restaurant_app/pages/splash_page.dart';
 
 void main() {
